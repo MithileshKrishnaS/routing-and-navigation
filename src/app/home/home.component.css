@@ -1,0 +1,27 @@
+body{
+    height: 30vh;
+}
+
+#nav{
+    display: grid;
+    grid-template-columns: 4fr 1fr .2fr 1fr .2fr 1fr .2fr 1fr;
+    color: white;
+    font-size: 120%;
+    text-align: center;
+    padding: 2%;
+}
+
+#nav>div{
+    padding: 2%;
+    border: 1px solid white;
+}
+
+#nav>div:hover{
+    background-color: blueviolet;
+}
+
+span{
+    color: rgb(0, 26, 255);
+    font-size: 180%;
+    margin-left: 5%;
+}

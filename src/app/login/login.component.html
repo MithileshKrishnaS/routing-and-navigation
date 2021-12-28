@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    <div id="whole">
+        <div id="log">
+           <pre><label for="email">    E mail          : </label><input type="email" [(ngModel)]="name" id="in"><br>
+    <label for="password">password : </label><input type="password" [(ngModel)]="pass" id="in">
+            <span *ngIf="no">invaild email or password</span>
+            <input type="submit" value="submit" (click)='home()' id="submit">
+            </pre> 
+        </div>
+    </div>
+</body>
+</html>

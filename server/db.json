@@ -1,0 +1,30 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "mithilesh@gmail.com",
+        "password": "123",
+        "type":"super"
+      },
+      {
+        "id": 2,
+        "username": "mano@gmail.com",
+        "country": "england",
+        "password": "123",
+        "type":"admin"
+      },
+      {
+        "id": 3,
+        "username": "log@gmail.com",
+        "country": "usa",
+        "password": "123",
+        "type":"normal"
+      },
+      {
+        "username": "mei@gmail.com",
+        "password": "123",
+        "id": 4,
+        "type":"admin"
+      }
+    ]
+}
